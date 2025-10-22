@@ -2,9 +2,9 @@ name: Ejecutar script Python
 
 on:
   push:            # Se ejecuta al hacer push
-    branches: [ main ]
+    branches: [ master ]
   pull_request:    # También al hacer PR
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   run-python:
